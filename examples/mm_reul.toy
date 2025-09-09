@@ -1,0 +1,5 @@
+tensor a[4,4], b[4,4]
+c = matmul(a, b)
+d = relu(c)
+e = relu(d)
+out = add(e, d)
